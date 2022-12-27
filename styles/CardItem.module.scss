@@ -1,0 +1,34 @@
+.container {
+    position: relative;
+    width: 332px;
+    padding: 31px 29px;
+    margin-bottom: 30px;
+    border: 1px solid #F5F5F7;
+}
+
+//https://dev.to/felixhaeberle/responsive-fix-for-the-next-js-image-component-1351
+//adaptive next/image fix
+
+.imageContainer {
+    width: 100%;
+    height: 220px;
+    padding-left: 29px;
+    padding-right: 29px;
+
+    > div {
+      position: unset !important;
+    }
+  
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: 220px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container{
+        width: 310px;
+    }
+  }

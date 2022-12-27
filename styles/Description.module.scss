@@ -1,0 +1,10 @@
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    //or hardcode slice(0, ...) + '...' method which i added in .tsx-file
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}

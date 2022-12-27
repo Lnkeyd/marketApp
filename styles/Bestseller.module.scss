@@ -1,0 +1,17 @@
+.bestseller {
+    position: absolute;
+    top: 31px;
+    right: 42px;
+    width: 64px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F23C30;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    -moz-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}

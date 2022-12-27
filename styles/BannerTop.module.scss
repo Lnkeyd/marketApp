@@ -1,0 +1,71 @@
+.container {
+    position: relative;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    position: absolute;
+    right: 0;
+    left: auto;
+    width: 168px;
+    height: 100%;
+    background-color: #636B7F;
+    z-index: 10;
+}
+
+.image {
+    z-index: 5;
+}
+
+.saleAmount {
+    width: 72px;
+    height: 24px;
+    margin-top: 22px;
+    margin-left: 11px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #2E2E33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFDC38;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    -moz-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.saleDescription {
+    margin-top: 4px;
+    margin-left: 25px;
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.saleButton {
+    margin-top: 8px;
+    margin-left: 25px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #FFFFFF;
+    // opacity: 80%;
+    border: none;
+    cursor: pointer;
+    background: none;
+    z-index: 10;
+}
+
+.circle {
+    position: absolute;
+    top: 97px;
+    left: 65px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    opacity: 10%;
+    z-index: 5;
+}

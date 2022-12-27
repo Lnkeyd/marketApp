@@ -1,0 +1,31 @@
+.generalInfo {
+    margin-top: 12px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    .rate {
+        display: flex;
+        align-items: baseline;
+        .count {
+            margin-left: 4px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #999999;
+            text-decoration: underline;
+        }
+        .stars {
+            width: 86px;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+    }
+
+    .category {
+        font-size: 12px;
+        font-weight: 400;
+        color: #999999;
+    }
+}
